@@ -35,8 +35,11 @@ Do the following:
 
    HINT: no function required
 */
-
-
+let hoursSlept = 4.5;
+let hoursNeeded = 8;
+if(hoursSlept < hoursNeeded){
+  console.log('You need more sleep, like now!');
+}
 
 
 
@@ -50,10 +53,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+let test = '1999'
+test.toString();
 
-
-
-
+console.log(test.toString());
 /*
 Task 1d - Multiply
  
